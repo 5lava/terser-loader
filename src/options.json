@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "terserOptions": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "stripTrailingSemicolon": {
+      "type": "boolean"
+    }
+  },
+  "required": [ ],
+  "additionalProperties": false
+}
