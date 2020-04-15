@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Terser loader for webpack",
   "license": "MIT",
-  "repository": "null/terser-loader",
+  "repository": "5lava/terser-loader",
   "author": "5lava",
-  "homepage": "https://github.com/null/terser-loader",
-  "bugs": "https://github.com/null/terser-loader/issues",
+  "homepage": "https://github.com/5lava/terser-loader",
+  "bugs": "https://github.com/5lava/terser-loader/issues",
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/webpack"
