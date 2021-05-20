@@ -1,6 +1,9 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+## [2.0.1](https://github.com/5lava/terser-loader/compare/v1.0.3...v2.0.1) (2021-05-20)
+
+* Support Terser 5
+* Made the loader asynchronous
 
 ### [1.0.3](https://github.com/5lava/terser-loader/compare/v1.0.2...v1.0.3) (2021-05-20)
 
