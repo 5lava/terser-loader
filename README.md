@@ -100,7 +100,7 @@ By default, terser'ed output ends with `;`. It's generally a good idea if you pl
 [npm-url]: https://npmjs.com/package/terser-loader
 [node]: https://img.shields.io/node/v/terser-loader.svg
 [node-url]: https://nodejs.org
-[deps]: https://david-dm.org/webpack-contrib/terser-loader.svg
-[deps-url]: https://david-dm.org/webpack-contrib/terser-loader
+[deps]: https://david-dm.org/5lava/terser-loader.svg
+[deps-url]: https://david-dm.org/5lava/terser-loader
 [size]: https://packagephobia.now.sh/badge?p=terser-loader
 [size-url]: https://packagephobia.now.sh/result?p=terser-loader
