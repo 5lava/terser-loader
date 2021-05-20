@@ -1,6 +1,6 @@
-import { getOptions }  from 'loader-utils'
-import validateOptions from 'schema-utils'
-import Terser          from 'terser'
+import { getOptions }                  from 'loader-utils'
+import { validate as validateOptions } from 'schema-utils'
+import Terser                          from 'terser'
 
 import schema from './options.json'
 
