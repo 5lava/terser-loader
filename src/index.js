@@ -7,7 +7,7 @@ import schema from './options.json'
 
 export const raw = false
 
-export default function loader (source) {
+export default async function loader (source) {
   const options = getOptions(this) || {}
 
   validateOptions(schema, options, {
@@ -15,16 +15,22 @@ export default function loader (source) {
     baseDataPath: 'options',
   })
 
-  const { code, error, warnings } = Terser.minify(source, options.terserOptions || {})
+  const webpackCallback = this.async()
 
-  if (error) this.emitError(error)
-  if (warnings) this.emitWarning(warnings.map(w => `${w}`.trim()).join('\n'))
+  let minifyResult
+  try {
+    minifyResult = await Terser.minify(source, options.terserOptions || {})
 
-  let result = code
+  } catch (error) {
+    webpackCallback(error)
+    return
+  }
+
+  let result = minifyResult.code
 
   if (options.stripTrailingSemicolon) {
     result = result.replace(/;([\s\uFEFF\xA0]*)$/g, '$1')
   }
 
-  return result
+  webpackCallback(null, result)
 }

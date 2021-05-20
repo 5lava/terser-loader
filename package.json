@@ -37,7 +37,7 @@
   "dependencies": {
     "loader-utils": "^2",
     "schema-utils": "^3",
-    "terser": "^4.6.10"
+    "terser": "^5"
   },
   "devDependencies": {
     "@babel/cli": "^7",
