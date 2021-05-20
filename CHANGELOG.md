@@ -1,5 +1,7 @@
 # Changelog
 
+### [2.0.2](https://github.com/5lava/terser-loader/compare/v2.0.1...v2.0.2) (2021-05-20)
+
 ## [2.0.1](https://github.com/5lava/terser-loader/compare/v1.0.3...v2.0.1) (2021-05-20)
 
 * Support Terser 5

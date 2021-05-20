@@ -1,6 +1,6 @@
 {
   "name": "terser-loader",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Terser loader for webpack",
   "license": "MIT",
   "repository": "5lava/terser-loader",
